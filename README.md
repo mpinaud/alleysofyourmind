@@ -63,7 +63,7 @@ We has a harder time getting our wishlist components to work as we wanted. Examp
 
 ## Version 2 Approach
 
-
+For my approach today I'll be using a lot of the same practices I learned the past couple days. I'll be using more of a 6-1 folder structure for my SASS. There will be all the same assets from Version 1. For this new page layout I would like to implement the grid system from our lesson a few days ago as well as a add a few more content sections.
 
 ## Setup/Installation Requirements
 
