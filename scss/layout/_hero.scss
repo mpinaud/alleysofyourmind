@@ -1,0 +1,13 @@
+.hero {
+  // background-image: url(../img/hero/hero-img.jpg);
+  width: 100%;
+  height: auto;
+  display: block;
+  background-size: cover;
+  background-color: black;
+}
+
+.hero img {
+  max-width: 100%;
+  max-height: 100%;
+}
