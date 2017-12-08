@@ -1,10 +1,6 @@
 .hero {
-  // background-image: url(../img/hero/hero-img.jpg);
-  width: 100%;
-  height: auto;
+  @include full-size;
   display: block;
-  background-size: cover;
-  background-color: black;
 }
 
 .hero img {
