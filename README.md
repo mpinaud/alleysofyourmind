@@ -31,17 +31,17 @@ The main inspiration for design comes from this [Spotify](https://open.spotify.c
     <tr>
       <td>Mixin</td>
       <td>Lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible.</td>
-      <td>Within our Abstracts folder we have placed a file called variables in which here we created a single mixin called flex-center in which we declared a value of display flex and justify content center in which we were able to call in our main.scss page for our grid system. To call this CSS declaration we had to start it with @include followed by the mixin name which was flex-center.</td>
+      <td>Within our Abstracts folder we have placed a file called variables in which here we created a single mixin called flex-center in which we declared a value of display flex and justify content center where we were able to call in our main.scss page for our grid system. To call this CSS declaration we had to start it with @include followed by the mixin name which was flex-center.</td>
     </tr>
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
+      <td>Partials</td>
+      <td>Files that contain little snippets of CSS that you can include in other Sass files. This is a great way to modularize your CSS and help keep things easier to maintain. A partial is simply a Sass file named with a leading underscore. Sass partials are then used with the @import directive.</td>
+      <td>Within the SCSS directory we have our main folders which within those we have created partials. This makes modularizing sections of our code easier and faster to go through if needed to do any changes. An example is in our layout folder we created various partials for our page layout. navigation.scss was created so if we needed to make any changes to our navbar this makes it clearer and easier to find rather than scrolling through a single page of CSS to find the navbar section</td>
     </tr>
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
+      <td>Nesting</td>
+      <td>Lets you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML.</td>
+      <td>Within our layout folder we have a partial called header.scss. For our styling of .header we have nested a media query calling our mobile variable and changing it's height.</td>
     </tr>
     <tr>
       <td> </td>
