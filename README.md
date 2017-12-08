@@ -1,12 +1,12 @@
 # Alleys Of Your Mind ver. 2
 
-#### A web launch page that is for the Alleys Of Your Mind radio show.
+#### A web landing page that is for the Alleys Of Your Mind radio show.
 
 #### by **Mikey Pinaud**
 
 ## Description
 
-This will be a launch page that showcases the Alleys Of Your Mind radio show with a logo, past episode images and widgets of which you can listen to, and navigation for upcoming content.
+This will be a landing page that showcases the Alleys Of Your Mind radio show with a logo, past episode images and widgets of which you can listen to, and navigation for upcoming content.
 
 The main inspiration for design comes from this [Spotify](https://open.spotify.com/view/2016-page/) page which there will be a main background image spanning vertically in the background while all content will be floating over as you scroll to the bottom of the page.
 
