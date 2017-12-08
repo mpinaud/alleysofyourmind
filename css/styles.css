@@ -1,6 +1,5 @@
 .background {
   background-image: url("../img/background/aoym-background.jpg");
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -20,6 +19,66 @@
   height: auto;
   filter: invert(100);
   background-color: #dddddd; }
+
+.wrapper, .row {
+  *zoom: 1; }
+  .wrapper:before, .row:before, .wrapper:after, .row:after {
+    content: " ";
+    display: table; }
+  .wrapper:after, .row:after {
+    clear: both; }
+
+.content-grid img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important; }
+
+.wrapper {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+[class*='column-'] {
+  float: left;
+  padding: 1em;
+  width: 100%;
+  min-height: 1px; }
+
+.column-1 {
+  width: 8.3333333333%; }
+
+.column-2 {
+  width: 16.6666666667%; }
+
+.column-3 {
+  width: 25%; }
+
+.column-4 {
+  width: 33.3333333333%; }
+
+.column-5 {
+  width: 41.6666666667%; }
+
+.column-6 {
+  width: 50%; }
+
+.column-7 {
+  width: 58.3333333333%; }
+
+.column-8 {
+  width: 66.6666666667%; }
+
+.column-9 {
+  width: 75%; }
+
+.column-10 {
+  width: 83.3333333333%; }
+
+.column-11 {
+  width: 91.6666666667%; }
+
+.column-12 {
+  width: 100%; }
 
 * {
   margin: 0;
