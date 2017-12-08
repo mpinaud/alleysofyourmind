@@ -1,7 +1,30 @@
+.background {
+  background-image: url("../img/background/aoym-background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header img {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  filter: invert(100);
+  background-color: #dddddd; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: 1px dotted gray; }
+
+body, html {
+  height: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px dotted gray;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=styles.css.map */
