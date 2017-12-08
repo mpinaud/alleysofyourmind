@@ -6,21 +6,21 @@
 
 ## Description
 
-This will be a landing page that showcases the Alleys Of Your Mind radio show with logo, past episode images, widgets with audio content, and navigation for upcoming content.
+This will be version 2 of a landing page that showcases the Alleys Of Your Mind radio show with logo, past episode images, widgets with audio content, and navigation for upcoming content.
 
 The main inspiration for design comes from this [Spotify](https://open.spotify.com/view/2016-page/) page which there will be a main background image spanning vertically in the background while all content will be floating over as you scroll to the bottom of the page.
 
 ## Thoughts and Feedback
 
-After our group decided what the basis of our landing page was about we then started grabbing inspiration for page layout from various google searches using "best CSS sites 2017" or "best CSS layout animation". From that we took ideas from this page and that and started jotting down notes for page layouts, components, and workflow. The next step was to sketch out 2 different wire framing ideas for the layout. We also add main components ideas such as logo, image, and content placement. Starting from desktop and working our way down to tablet and then mobile we started sketching them to different flashcards piece by piece naming each step. For components we also took notes on wish-list items to add if time was given before deadline.
+After our group decided what the basis of our landing page was about we then started grabbing inspiration for page layout from various google searches using "best CSS sites 2017" or "best CSS layout animation". From that we discussed ideas from this and that of the google searched websites and started jotting down notes for page layouts, components, and workflow. The next step was to sketch out 2 different wire framing ideas for the layout. We also added content ideas such as logo, image, and component placement. Starting from desktop and working our way down into tablet and then mobile view we started sketching each layout to a flashcard piece by piece naming each step. For components we also took notes on wish-list items to add if time was given before deadline.
 
-Next step was creating our HTML. We went with the 7-1 SCSS folder layout and started creating all of our partials within. From there is where we learned how to use SASS elements and how to implement them into our workflow. To get a clearer grasp of how to approach SASS we created all of our styling in our main.scss page and then from there we would break them down/"dry our code" by using our 7-1 folder structure using SASS elements and practices.
+Next step was creating our HTML. We went with the 7-1 SCSS folder layout and started creating all of our partials within. From there is where we learned how to use SASS elements and how to implement them into our workflow. To get a clearer grasp of how to approach SASS we created all of our styling in our main.scss page and then from there we would break them down/"dry our code" by using our 7-1 folder structure using elements and practices.
 
 Is there a better approach to doing this? In time with repetitive practice, especially with knowing how page layout and CSS rules work, will I be able to not have to jot down all the styling on one page and then break them down? Or was the approach we went with common practice?
 
-For me I felt it was a great learning tool implementing various SASS elements from our list one by one honing in on how these would be applied into our workflow. Getting things to work from creating variables, mixins, nesting, and importing seemed easy. Especially since our landing page was pretty minimal.
+For me I felt it was a great learning tool implementing various SASS elements from our list one by one honing in on how these would be applied into our workflow. Getting things to work from creating variables, mixins, nesting, and importing seemed easy. But also our landing page was pretty minimal.
 
-We has a harder time getting our wishlist components to work as we wanted. Example: Bootstrap Carousel continuous scrolling. Navbar collapsing to the right. Little things like that took mush of our time.
+We had a harder time getting our wishlist components to work as we wanted. Example: Bootstrap Carousel continuous scrolling. Navbar collapsing to the right. Little things like that took much of our time.
 
 ## Elements Used
 
@@ -63,7 +63,7 @@ We has a harder time getting our wishlist components to work as we wanted. Examp
 
 ## Version 2 Approach
 
-For my approach today I'll be using a lot of the same practices I learned the past couple days. I'll be using more of a 6-1 folder structure for my SASS. There will be all the same assets from Version 1. For this new page layout I would like to implement the grid system from our lesson a few days ago as well as a add a few more content sections.
+For my approach today I'll be using a lot of the same practices I learned the past couple days. I'll be using more of a 6-1 folder structure for my SASS. There will be all the same assets from Version 1 plus more content. For this new page layout I would like to implement the grid system from our lesson a few days ago as well as a add a few more content sections.
 
 ## Setup/Installation Requirements
 
