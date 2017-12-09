@@ -85,6 +85,9 @@
   .wrapper:after, .row:after {
     clear: both; }
 
+.content-grid {
+  text-align: center; }
+
 .content-grid img {
   width: auto;
   max-width: 100%;
@@ -163,17 +166,15 @@
 
 .logo {
   width: 1110px;
-  height: 73px;
+  height: 110px;
   padding: 1rem;
   position: fixed;
   bottom: 0;
-  text-align: center;
-  background-color: black; }
+  text-align: center; }
 
 .logo img {
   margin-top: 13px;
-  width: 37px;
-  filter: invert(100); }
+  width: 162px; }
 
 .scrollToTop:hover {
   cursor: pointer; }
