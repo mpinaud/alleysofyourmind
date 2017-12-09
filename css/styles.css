@@ -1,9 +1,21 @@
 .background {
-  background-image: url("../img/background/aoym-background.jpg");
+  background-image: url("../img/background/aoym-blur-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
+.nav {
+  background: red;
+  height: 10vh; }
+
+@media screen and (min-width: 765px) {
+  .nav {
+    float: left;
+    margin-top: 40vh;
+    margin-right: 3rem;
+    padding: 1rem;
+    position: fixed;
+    background: blue; } }
 .hero {
   width: 100%;
   height: auto;
@@ -19,6 +31,11 @@
   height: auto;
   filter: invert(100);
   background-color: #dddddd; }
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5a5a5a; }
 
 .wrapper, .row {
   *zoom: 1; }
@@ -38,9 +55,14 @@
   max-width: 1200px;
   margin: 0 auto; }
 
+.wrapper, .row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%; }
+
 [class*='column-'] {
   float: left;
-  padding: 1em;
+  padding: 0.5em;
   width: 100%;
   min-height: 1px; }
 
@@ -95,6 +117,44 @@
 
   .grid-small {
     display: block; } }
+.top-scroll-small {
+  width: 100%;
+  display: none; }
+
+.logo {
+  width: 1110px;
+  height: 73px;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: black; }
+
+.logo img {
+  margin-top: 13px;
+  width: 37px;
+  filter: invert(100); }
+
+.scrollToTop:hover {
+  cursor: pointer; }
+
+@media (max-width: 1199px) {
+  .logo {
+    width: 930px; } }
+@media (max-width: 991px) {
+  .logo {
+    width: 690px; } }
+@media (max-width: 767px) {
+  .logo {
+    width: 510px; } }
+@media (max-width: 575px) {
+  .top-scroll-small {
+    display: block; }
+
+  .logo {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important; } }
 * {
   margin: 0;
   padding: 0;

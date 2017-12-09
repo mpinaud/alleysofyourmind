@@ -24,11 +24,13 @@
 
 .wrapper, .row{
   @extend %clearfix;
+  @include center-margin;
+  width: 99%;
 }
 
 [class*='column-'] {
   float: left;
-  padding: 1em;
+  padding: 0.5em;
   width: 100%;
   min-height: 1px;
 }

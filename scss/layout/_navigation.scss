@@ -1,0 +1,15 @@
+.nav {
+  background: red;
+  height: 10vh;
+}
+
+@media screen and (min-width: 765px) {
+  .nav {
+    float: left;
+    margin-top: 40vh;
+    margin-right: 3rem;
+    padding: 1rem;
+    position: fixed;
+    background: blue;
+  }
+}

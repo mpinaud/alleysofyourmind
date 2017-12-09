@@ -1,0 +1,54 @@
+.top-scroll-small {
+  width: 100%;
+  display: none;
+}
+
+.logo {
+  width: 1110px;
+  height: 73px;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: black;
+}
+
+.logo img {
+  margin-top: 13px;
+  width: 37px;
+  filter: invert(100);
+}
+
+.scrollToTop:hover{
+	cursor: pointer;
+}
+
+@media #{$large} {
+  .logo {
+    width: 930px;
+  }
+}
+
+@media #{$medium-large} {
+  .logo {
+    width: 690px;
+  }
+}
+
+@media #{$medium-small} {
+  .logo {
+    width: 510px;
+  }
+}
+
+@media #{$small} {
+  .top-scroll-small {
+    display: block;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
+  }
+}
