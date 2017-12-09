@@ -1,3 +1,9 @@
+@font-face {
+  font-family: moon;
+  src: url(../fonts/Moon_Light.otf); }
+.moon {
+  font-family: moon; }
+
 .background {
   background-image: url("../img/background/aoym-blur-background.jpg");
   background-position: center;
@@ -19,12 +25,46 @@
 .hero {
   width: 100%;
   height: auto;
-  display: block; }
+  display: block;
+  text-align: center;
+  position: relative; }
 
 .hero img {
   max-width: 100%;
   max-height: 100%; }
 
+.hero h4 {
+  font-size: 22px;
+  position: absolute;
+  top: 42.7%;
+  left: 12%;
+  width: 75%;
+  color: #ff07a3;
+  line-height: 25px; }
+
+@media (max-width: 1199px) {
+  .hero h4 {
+    font-size: 18px;
+    top: 43.1%;
+    line-height: 21px; } }
+@media (max-width: 991px) {
+  .hero h4 {
+    font-size: 15px;
+    top: 43.1%;
+    line-height: 17px; } }
+@media (max-width: 767px) {
+  .hero h4 {
+    font-size: 12px;
+    top: 43.1%;
+    line-height: 11px; } }
+@media (max-width: 575px) {
+  .hero h4 {
+    font-size: 23px;
+    position: inherit;
+    width: 77%;
+    color: #ff07a3;
+    margin-top: 13px;
+    line-height: 26px; } }
 .header img {
   padding: 28px;
   width: 100%;
