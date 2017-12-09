@@ -103,10 +103,4 @@
 body, html {
   height: 100%; }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 1px dotted gray;
-  box-sizing: border-box; }
-
 /*# sourceMappingURL=styles.css.map */
