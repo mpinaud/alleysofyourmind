@@ -80,6 +80,21 @@
 .column-12 {
   width: 100%; }
 
+.grid-medium, .grid-small {
+  display: none; }
+
+@media (max-width: 900px) {
+  .grid-large {
+    display: none; }
+
+  .grid-medium {
+    display: block; } }
+@media (max-width: 575px) {
+  .grid-medium {
+    display: none; }
+
+  .grid-small {
+    display: block; } }
 * {
   margin: 0;
   padding: 0;

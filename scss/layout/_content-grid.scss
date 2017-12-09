@@ -38,3 +38,28 @@
     width: 100% / 12 * $i;
   }
 }
+
+.grid-medium, .grid-small {
+  display: none;
+}
+
+@media #{$medium} {
+  .grid-large {
+    display: none;
+  }
+
+  .grid-medium {
+    display: block;
+  }
+
+}
+
+@media #{$small} {
+  .grid-medium {
+    display: none;
+  }
+
+  .grid-small {
+    display: block;
+  }
+}
