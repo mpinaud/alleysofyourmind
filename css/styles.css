@@ -255,9 +255,14 @@ footer {
 
 .contact-info {
   float: left;
-  color: white;
   margin-top: 28px;
   margin-left: 17px; }
+
+a {
+  color: #fff; }
+
+a:hover {
+  color: #00ffec; }
 
 .social-media {
   display: inline;
@@ -271,6 +276,9 @@ footer {
   height: auto;
   filter: invert(100);
   margin-right: 24px; }
+
+.social-media img:hover {
+  filter: contrast(80%); }
 
 @media (max-width: 767px) {
   .social-media {

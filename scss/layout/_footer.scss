@@ -11,9 +11,16 @@ footer {
 
 .contact-info {
   float: left;
-  color: white;
   margin-top: 28px;
   margin-left: 17px;
+}
+
+a {
+  color: $brand-text-color;
+}
+
+a:hover {
+  color: $brand-hover-color;
 }
 
 .social-media {
@@ -29,6 +36,10 @@ footer {
   height: auto;
   filter: invert(100);
   margin-right: 24px;
+}
+
+.social-media img:hover {
+  filter: contrast(80%);
 }
 
 @media #{$medium-small} {
