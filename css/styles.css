@@ -170,44 +170,34 @@
   margin-right: auto;
   margin-bottom: 30px;
   background-color: #5a5a5a; }
-
-.radio h3 {
-  color: #ff07a3; }
-
-.radio p {
-  color: #e8e8e8;
-  text-align: justify; }
-
-.radio a {
-  color: #a5a5a5; }
-
-.radio a:hover {
-  color: #00ffec; }
-
-a.content-link {
-  text-align: right; }
+  .radio h3 {
+    color: #ff07a3; }
+  .radio P {
+    color: #e8e8e8;
+    text-align: justify; }
+  .radio a {
+    color: #a5a5a5; }
+  .radio a:hover {
+    color: #00ffec; }
+  .radio a.content-link {
+    text-align: right; }
 
 .live-series {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   background-color: #5a5a5a; }
-
-.live-series h3 {
-  color: #ff07a3; }
-
-.live-series p {
-  color: #e8e8e8;
-  text-align: justify; }
-
-.live-series a {
-  color: #a5a5a5; }
-
-.live-series a:hover {
-  color: #00ffec; }
-
-a.content-link {
-  text-align: right; }
+  .live-series h3 {
+    color: #ff07a3; }
+  .live-series P {
+    color: #e8e8e8;
+    text-align: justify; }
+  .live-series a {
+    color: #a5a5a5; }
+  .live-series a:hover {
+    color: #00ffec; }
+  .live-series a.content-link {
+    text-align: right; }
 
 .max-capacity {
   margin-left: auto;

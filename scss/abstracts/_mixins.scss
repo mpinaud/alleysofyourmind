@@ -8,3 +8,26 @@
   margin-right: auto;
   margin-bottom: 30px;
 }
+
+@mixin home-container-even {
+  h3 {
+    color: $brand-text-color;
+  }
+
+  P {
+    color: $brand-p-color;
+    text-align: justify;
+  }
+
+  a {
+    color: $brand-link-color;
+  }
+
+  a:hover {
+    color: $brand-hover-color;
+  }
+
+  a.content-link  {
+    text-align: right;
+  }  
+}

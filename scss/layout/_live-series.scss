@@ -1,26 +1,5 @@
 .live-series {
     @include center-margin;
+    @include home-container-even;
     background-color: $bg-color2;
-}
-
-.live-series h3 {
-  color: $brand-text-color;
-}
-
-
-.live-series p, {
-  color: $brand-p-color;
-  text-align: justify;
-}
-
-.live-series a {
-  color: $brand-link-color;
-}
-
-.live-series a:hover {
-  color: $brand-hover-color;
-}
-
-a.content-link  {
-  text-align: right;
 }
