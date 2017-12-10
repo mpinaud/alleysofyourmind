@@ -1,0 +1,69 @@
+.footer {
+  width: 100%;
+  height: 201px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #404040;
+}
+
+.contact-info {
+  float: left;
+  color: white;
+  margin-top: 28px;
+  margin-left: 17px;
+}
+
+.social-media {
+  display: inline;
+  width: 181px;
+  height: 52px;
+  float: right;
+  margin-top: 24px;
+}
+
+.social-media img {
+  width: 18%;
+  height: auto;
+  filter: invert(100);
+  margin-right: 24px;
+}
+
+@media #{$medium-small} {
+  .social-media {
+    float: left;
+    margin-top: -5px;
+    margin-left: 15px;
+  }
+
+  .contact-info {
+    margin-top: 15px;
+  }
+
+  footer {
+    height: 97px;
+  }
+
+  .social-media img {
+    width: 16%;
+  }
+
+}
+
+@media #{$small} {
+  .contact-info p {
+    font-size: 13px;
+    line-height: 3px;
+  }
+
+  footer {
+    display: grid;
+    height: 86px;
+  }
+
+  .social-media img {
+    width: 13%;
+  }
+}

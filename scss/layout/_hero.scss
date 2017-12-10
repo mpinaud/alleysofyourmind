@@ -1,5 +1,6 @@
 .hero {
   @include full-size;
+  @include center-margin;
   display: block;
   text-align: center;
   position: relative;
