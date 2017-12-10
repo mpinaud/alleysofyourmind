@@ -1,0 +1,26 @@
+.radio {
+    @include center-margin;
+    background-color: $bg-color2;
+}
+
+.radio h3 {
+  color: $brand-text-color;
+}
+
+
+.radio p, {
+  color: $brand-p-color;
+  text-align: justify;
+}
+
+.radio a {
+  color: $brand-link-color;
+}
+
+.radio a:hover {
+  color: $brand-hover-color;
+}
+
+a.content-link  {
+  text-align: right;
+}

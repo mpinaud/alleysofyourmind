@@ -10,20 +10,6 @@
   }
 }
 
-.content-grid h3 {
-  color: $brand-text-color;
-}
-
-a.content-link  {
-  text-align: right;
-  color: white;
-}
-
-a.content-link:hover {
-  color: grey;
-}
-
-
 .content-grid img {
   width: auto;
   max-width: 100%;
@@ -68,6 +54,12 @@ a.content-link:hover {
     display: block;
   }
 
+}
+
+@media #{$medium-large} {
+  .container.grid-large {
+    max-width: 822px;
+  }
 }
 
 @media #{$small} {
