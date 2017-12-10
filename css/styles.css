@@ -85,8 +85,15 @@
   .wrapper:after, .row:after {
     clear: both; }
 
-.content-grid {
-  text-align: center; }
+.content-grid h3 {
+  color: #ff07a3; }
+
+a.content-link {
+  text-align: right;
+  color: white; }
+
+a.content-link:hover {
+  color: grey; }
 
 .content-grid img {
   width: auto;

@@ -10,9 +10,19 @@
   }
 }
 
-.content-grid {
-  text-align: center;
+.content-grid h3 {
+  color: $brand-text-color;
 }
+
+a.content-link  {
+  text-align: right;
+  color: white;
+}
+
+a.content-link:hover {
+  color: grey;
+}
+
 
 .content-grid img {
   width: auto;
