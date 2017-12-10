@@ -1,4 +1,6 @@
 .tune-in {
     @include center-margin;
+    @include home-container-odd;
+    @include link-style;
     background-color: $bg-color1;
 }

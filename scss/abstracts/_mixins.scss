@@ -9,7 +9,7 @@
   margin-bottom: 30px;
 }
 
-@mixin home-container-even {
+@mixin home-container-odd {
   h3 {
     color: $brand-text-color;
   }
@@ -19,6 +19,27 @@
     text-align: justify;
   }
 
+  a.content-link  {
+    text-align: right;
+  }
+}
+
+@mixin home-container-even {
+  h3 {
+    color: $brand-text-color-2;
+  }
+
+  P {
+    color: $brand-p-color-2;
+    text-align: justify;
+  }
+
+  a.content-link  {
+    text-align: right;
+  }
+}
+
+@mixin link-style {
   a {
     color: $brand-link-color;
   }
@@ -26,8 +47,4 @@
   a:hover {
     color: $brand-hover-color;
   }
-
-  a.content-link  {
-    text-align: right;
-  }  
 }

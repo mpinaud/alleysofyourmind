@@ -1,5 +1,6 @@
 .radio {
     @include center-margin;
     @include home-container-even;
+    @include link-style;
     background-color: $bg-color2;
 }

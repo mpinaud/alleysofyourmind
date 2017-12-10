@@ -9,11 +9,16 @@ $large:"(max-width:1199px)";
 $bg-color1: #dddddd;
 $bg-color2: #5a5a5a;
 $accent-color: #90fef8;
-
-$brand-text-color: #ff07a3;
-$brand-p-color: #e8e8e8;
-$brand-link-color: #a5a5a5;
+$brand-link-color: #ffff00;
 $brand-hover-color: #00ffec;
+
+// styling for odd containers
+$brand-text-color: #fff;
+$brand-p-color: #000;
+
+// styling for even containers
+$brand-text-color-2: #ff07a3;
+$brand-p-color-2: #e8e8e8;
 
 // grid system
 $grid-columns: 12;

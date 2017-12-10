@@ -1,4 +1,6 @@
 .propaganda {
-    @include center-margin;
-    background-color: $bg-color1;
+  @include center-margin;
+  @include home-container-odd;
+  @include link-style;
+  background-color: $bg-color1;
 }

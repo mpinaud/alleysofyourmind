@@ -164,6 +164,17 @@
   margin-right: auto;
   margin-bottom: 30px;
   background-color: #dddddd; }
+  .tune-in h3 {
+    color: #fff; }
+  .tune-in P {
+    color: #000;
+    text-align: justify; }
+  .tune-in a.content-link {
+    text-align: right; }
+  .tune-in a {
+    color: #ffff00; }
+  .tune-in a:hover {
+    color: #00ffec; }
 
 .radio {
   margin-left: auto;
@@ -175,12 +186,12 @@
   .radio P {
     color: #e8e8e8;
     text-align: justify; }
-  .radio a {
-    color: #a5a5a5; }
-  .radio a:hover {
-    color: #00ffec; }
   .radio a.content-link {
     text-align: right; }
+  .radio a {
+    color: #ffff00; }
+  .radio a:hover {
+    color: #00ffec; }
 
 .live-series {
   margin-left: auto;
@@ -192,24 +203,46 @@
   .live-series P {
     color: #e8e8e8;
     text-align: justify; }
-  .live-series a {
-    color: #a5a5a5; }
-  .live-series a:hover {
-    color: #00ffec; }
   .live-series a.content-link {
     text-align: right; }
+  .live-series a {
+    color: #ffff00; }
+  .live-series a:hover {
+    color: #00ffec; }
 
 .max-capacity {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   background-color: #dddddd; }
+  .max-capacity h3 {
+    color: #fff; }
+  .max-capacity P {
+    color: #000;
+    text-align: justify; }
+  .max-capacity a.content-link {
+    text-align: right; }
+  .max-capacity a {
+    color: #ffff00; }
+  .max-capacity a:hover {
+    color: #00ffec; }
 
 .propaganda {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   background-color: #dddddd; }
+  .propaganda h3 {
+    color: #fff; }
+  .propaganda P {
+    color: #000;
+    text-align: justify; }
+  .propaganda a.content-link {
+    text-align: right; }
+  .propaganda a {
+    color: #ffff00; }
+  .propaganda a:hover {
+    color: #00ffec; }
 
 .footer {
   width: 100%;
