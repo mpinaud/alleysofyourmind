@@ -11,6 +11,7 @@ This was an [Epicodus](https://www.epicodus.com/) 8 hour SASS test.
 # What I Learned
 
 * SASS
+* How to make a conditional scroll to top CTA
 
 ## Elements Used
 
