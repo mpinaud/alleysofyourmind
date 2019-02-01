@@ -1,6 +1,6 @@
 # Alleys Of Your Mind ver. 2
 
-A web landing page that is for the Alleys Of Your Mind radio show. The main focus was to learn SASS while focusing on responsive UI design.
+A web landing page that is for the Alleys Of Your Mind radio show. This process was to learn SASS while focusing on responsive UI design.
 
 ![alt text](https://github.com/mpinaud/alleys-of-your-mind-version-2/blob/master/img/aoym.png)
 
