@@ -1,26 +1,16 @@
 # Alleys Of Your Mind ver. 2
 
-#### A web landing page that is for the Alleys Of Your Mind radio show.
-
-#### by **Mikey Pinaud**
-
-## Description
-
-This will be version 2 of a landing page that showcases the Alleys Of Your Mind radio show with logo, past episode images, widgets with audio content, and navigation for upcoming content.
+A web landing page that is for the Alleys Of Your Mind radio show as a UX/UI design to develop process. The main focus was to learn SASS while focusing on responsive UI design. All imagery, UX/UI design and development code was created by 👨🏻‍💻
 
 The main inspiration for design comes from this [Spotify](https://open.spotify.com/view/2016-page/) page which there will be a main background image spanning vertically in the background while all content will be floating over as you scroll to the bottom of the page.
 
-## Thoughts and Feedback
+![alt text](https://github.com/mpinaud/alleys-of-your-mind-version-2/blob/master/img/aoym.png)
 
-After our group decided what the basis of our landing page was about we then started grabbing inspiration for page layout from various google searches using "best CSS sites 2017" or "best CSS layout animation". From that we discussed ideas from this and that of the google searched websites and started jotting down notes for page layouts, components, and workflow. The next step was to sketch out 2 different wire framing ideas for the layout. We also added content ideas such as logo, image, and component placement. Starting from desktop and working our way down into tablet and then mobile view we started sketching each layout to a flashcard piece by piece naming each step. For components we also took notes on wish-list items to add if time was given before deadline.
+[View on web browser](https://mpinaud.github.io/alleys-of-your-mind-version-2/)
 
-Next step was creating our HTML. We went with the 7-1 SCSS folder layout and started creating all of our partials within. From there is where we learned how to use SASS elements and how to implement them into our workflow. To get a clearer grasp of how to approach SASS we created all of our styling in our main.scss page and then from there we would break them down/"dry our code" by using our 7-1 folder structure using elements and practices.
+# What I Learned
 
-Is there a better approach to doing this? In time with repetitive practice, especially with knowing how page layout and CSS rules work, will I be able to not have to jot down all the styling on one page and then break them down? Or was the approach we went with common practice?
-
-For me I felt it was a great learning tool implementing various SASS elements from our list one by one honing in on how these would be applied into our workflow. Getting things to work from creating variables, mixins, nesting, and importing seemed easy. But also our landing page was pretty minimal.
-
-We had a harder time getting our wishlist components to work as we wanted. Example: Bootstrap Carousel continuous scrolling. Navbar collapsing to the right. Little things like that took much of our time.
+* SASS
 
 ## Elements Used
 
@@ -61,29 +51,13 @@ We had a harder time getting our wishlist components to work as we wanted. Examp
   </tbody>
 </table>
 
-## Version 2 Approach
-
-For my approach today I'll be using a lot of the same practices I learned the past couple days. I'll be using more of a 6-1 folder structure for my SASS. There will be all the same assets from Version 1 plus more content. For this new page layout I would like to implement the grid system from our lesson a few days ago as well as a add a few more content sections.
-
-## Setup/Installation Requirements
-
-[View on web browser](https://mpinaud.github.io/alleys-of-your-mind-version-2/)
-
-Clone or download repository:
-  1. Open [this page](https://github.com/mpinaud/alleys-of-your-mind-version-2/) in web browser.
-  2. Under the repository name, click Clone or download.
-  3. In the Clone with HTTPs section, click to copy the clone URL for the repository.
-  4. Open Terminal.
-  5. Change the current working directory to the location where you want the cloned directory to be made (ex. cd desktop).
-  6. Type git clone, and then paste the URL you copied in Step 3. (ex. git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY).
-  7. Press Enter. Your local clone will be created.
-
 ## Technologies Used
 
   * HTML
   * CSS
+  * SASS
+  * Bootstrap v3.7.7
   * jQuery
-  * Bootstrap
 
 ## License
 
