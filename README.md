@@ -4,6 +4,10 @@ A web application for the Alleys Of Your Mind radio show.
 
 [View on web browser](https://mpinaud.github.io/alleys-of-your-mind-version-2/)
 
+## Description
+
+This was an [Epicodus](https://www.epicodus.com/) 8 hour SASS test.
+
 # What I Learned
 
 * SASS
