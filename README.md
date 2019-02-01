@@ -2,8 +2,6 @@
 
 A web landing page that is for the Alleys Of Your Mind radio show as a UX/UI design to develop process. The main focus was to learn SASS while focusing on responsive UI design. All imagery, UX/UI design and development code was created by 👨🏻‍💻
 
-The main inspiration for design comes from this [Spotify](https://open.spotify.com/view/2016-page/) page which there will be a main background image spanning vertically in the background while all content will be floating over as you scroll to the bottom of the page.
-
 ![alt text](https://github.com/mpinaud/alleys-of-your-mind-version-2/blob/master/img/aoym.png)
 
 [View on web browser](https://mpinaud.github.io/alleys-of-your-mind-version-2/)
