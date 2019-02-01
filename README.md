@@ -2,7 +2,7 @@
 
 A web landing page that is for the Alleys Of Your Mind radio show. This process was to learn SASS while focusing on responsive UI design.
 
-![alt text](https://github.com/mpinaud/alleys-of-your-mind-version-2/blob/master/img/aoym-logo.png)
+![alt text](https://github.com/mpinaud/alleys-of-your-mind-version-2/blob/master/img/logo/aoym-logo.png)
 
 [View on web browser](https://mpinaud.github.io/alleys-of-your-mind-version-2/)
 
