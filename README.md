@@ -2,7 +2,7 @@
 
 A web application for the Alleys Of Your Mind radio show.
 
-[View on web browser](https://mpinaud.github.io/alleys-of-your-mind-version-2/)
+[View on web browser](https://mpinaud.github.io/alleysofyourmind/)
 
 ## Description
 
