@@ -2,6 +2,8 @@
 
 A web application for the Alleys Of Your Mind radio show.
 
+![alt text](https://github.com/mpinaud/alleys-of-your-mind-version-2/blob/master/img/aoym.png)
+
 [View on web browser](https://mpinaud.github.io/alleysofyourmind/)
 
 ## Description
